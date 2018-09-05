@@ -1,0 +1,33 @@
+﻿生成启动时间为 2018/9/1 13:32:42。
+     1>项目“E:\qt_rep\face_recognition\face_recognition\face_recognition.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio 2013\下载的\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include\QtCore /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include\QtGui /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include\QtMultimedia /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include\QtMultimediaWidgets /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include\QtNetwork /ID:\QT\Qt5.9.6\5.9.6\msvc2013_64\include\QtWidgets /ZI /nologo /W1 /WX- /O2 /D UNICODE /D _UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt face_recognition.cpp
+     1>cl : 命令行 warning D9038: 此平台上不支持 /ZI；请启用 /Zi
+         face_recognition.cpp
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(44): warning C4010: 单行注释包含行继续符
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(46): warning C4010: 单行注释包含行继续符
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(47): warning C4010: 单行注释包含行继续符
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(53): warning C4010: 单行注释包含行继续符
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(70): warning C4010: 单行注释包含行继续符
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(71): warning C4010: 单行注释包含行继续符
+     1>E:\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(82): warning C4010: 单行注释包含行继续符
+       Link:
+         D:\visual studio 2013\下载的\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\qt_rep\face_recognition\x64\Release\\face_recognition.exe" /NOLOGO /LIBPATH:D:\QT\Qt5.9.6\5.9.6\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Multimedia.lib Qt5MultimediaWidgets.lib Qt5Network.lib Qt5Widgets.lib Identification.lib FaceAlignment.lib FaceDetection.lib opencv_core249.lib opencv_highgui249.lib opencv_imgproc249.lib realsense.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\qt_rep\face_recognition\x64\Release\face_recognition.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\qt_rep\face_recognition\x64\Release\face_recognition.lib" /MACHINE:X64 x64\Release\Base64.obj
+         x64\Release\EnrollRequest.obj
+         x64\Release\face_recognition.obj
+         x64\Release\FeatureGroup.obj
+         x64\Release\FeatureRecognition.obj
+         x64\Release\qrc_face_recognition.obj
+         x64\Release\moc_BaseNet.obj
+         x64\Release\moc_face_recognition.obj
+         x64\Release\InitialGUIRequest.obj
+         x64\Release\LivenessRequest.obj
+         x64\Release\main.obj
+         x64\Release\BaseNet.obj
+         x64\Release\RecordRequest.obj
+         face_recognition.vcxproj -> E:\qt_rep\face_recognition\x64\Release\face_recognition.exe
+     1>已完成生成项目“E:\qt_rep\face_recognition\face_recognition\face_recognition.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.23
